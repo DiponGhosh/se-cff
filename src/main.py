@@ -6,7 +6,7 @@ from utils.config import get_cfg
 
 # Argument Parser
 parser = argparse.ArgumentParser()
-parser.add_argument('--config_path', type=str, default='data')
+parser.add_argument('--config_path', type=str, default='/root/code/configs/config.yaml')
 parser.add_argument('--data_root', type=str, default='/root/data/DSEC')
 parser.add_argument('--save_root', type=str, default='/root/code/save')
 
